@@ -62,9 +62,9 @@ minecraft {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'examplemod'
-			
-			args '--username=Player_' + Math.abs( new Random().nextInt() % 10000 ).toString()
-			// args '--username=MyUserNameHere'
+	    
+	    args '--username=Player_' + Math.abs( new Random().nextInt() % 10000 ).toString()
+	    // args '--username=MyUserNameHere'
 
             mods {
                 examplemod {
